@@ -10,12 +10,12 @@ import songReducer from './components/reducer';
 
 export const SongContext = React.createContext({
   song: {
-    id: 'd6feea7f-29c5-41cb-a13f-ef38663e63b4',
-    artist: 'Sia',
-    title: 'The Greatest',
-    duration: 352,
-    url: 'https://www.youtube.com/watch?v=GKSRyLdjsPA',
-    thumbnail: 'https://img.youtube.com/vi/GKSRyLdjsPA/0.jpg',
+    // id: 'd6feea7f-29c5-41cb-a13f-ef38663e63b4',
+    // artist: 'Sia',
+    title: 'Click on play icon to start playing song',
+    // duration: 352,
+    // url: 'https://www.youtube.com/watch?v=GKSRyLdjsPA',
+    // thumbnail: 'https://img.youtube.com/vi/GKSRyLdjsPA/0.jpg',
   },
   isPlaying: false,
 });

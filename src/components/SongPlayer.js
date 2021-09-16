@@ -9,6 +9,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import {
+  LoopOutlined,
   PauseSharp,
   PlayArrow,
   SkipNext,
@@ -52,6 +53,8 @@ function SongPlayer() {
   const { state, dispatch } = React.useContext(SongContext);
   const [positionInQueue, setPositionInQueue] = React.useState(0);
   const { data } = useQuery(GET_QUEUED_SONGS);
+
+  const [loop,setLoop] = React.useState(false)
 
   React.useEffect(() => {
     const songIndex = data.queue.findIndex((song) => song.id === state.song.id);
@@ -139,6 +142,15 @@ function SongPlayer() {
             <Typography variant="subtitle1" component="p" color="textSecondary">
               {formatDuration(playedSeconds)}{' '}
             </Typography>
+            <LoopOutlined
+              onClick={() => setLoop(true)}
+              onDoubleClick={() => setLoop(false)}
+              style={{
+                marginLeft: '20px',
+                color: loop ? '#009688' : 'white',
+                cursor: 'pointer',
+              }}
+            />
           </div>
           <Slider
             onChange={handleProgressChange}
@@ -162,6 +174,7 @@ function SongPlayer() {
           playing={state.isPlaying}
           url={state.song.url}
           hidden
+          loop={loop}
         />
         <CardMedia
           className={classes.thumbnail}

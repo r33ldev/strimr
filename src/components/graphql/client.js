@@ -13,6 +13,7 @@ const client = new ApolloClient({
         headers: {
           contentType: 'application/json',
           'x-hasura-admin-secret': process.env.REACT_APP_HASURA_CLIENT_SECRET,
+          // 'x-hasura-admin-secret':'NXkXfGTskTmL3RQ35Ewazaov5oAhJuk22j77eHdiN3tD5zpIUCcedkaLf86vSq13',
         },
       },
     },
@@ -66,6 +67,9 @@ const client = new ApolloClient({
   },
 });
 
+  console.log('===================================');
+  console.log(process.env)  
+  console.log('===================================');
 const hasQueue = Boolean(localStorage.getItem('queue'));
 
 const data = {
