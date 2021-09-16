@@ -1,5 +1,4 @@
-## Full working Demo at https://j4jedah.github.io/music/
-
+## working Demo at https://j4jedah.github.io/music/
 
 # Getting Started with Create React App
 
