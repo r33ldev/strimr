@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/music/static/js/main.7f4b5f52.chunk.js",
-    "main.js.map": "/music/static/js/main.7f4b5f52.chunk.js.map",
-    "runtime-main.js": "/music/static/js/runtime-main.570691ac.js",
-    "runtime-main.js.map": "/music/static/js/runtime-main.570691ac.js.map",
-    "static/js/2.4196c608.chunk.js": "/music/static/js/2.4196c608.chunk.js",
-    "static/js/2.4196c608.chunk.js.map": "/music/static/js/2.4196c608.chunk.js.map",
-    "index.html": "/music/index.html",
-    "static/js/2.4196c608.chunk.js.LICENSE.txt": "/music/static/js/2.4196c608.chunk.js.LICENSE.txt"
+    "main.js": "/strimr/static/js/main.8c448a5c.chunk.js",
+    "main.js.map": "/strimr/static/js/main.8c448a5c.chunk.js.map",
+    "runtime-main.js": "/strimr/static/js/runtime-main.2116b0f4.js",
+    "runtime-main.js.map": "/strimr/static/js/runtime-main.2116b0f4.js.map",
+    "static/js/2.e7364d82.chunk.js": "/strimr/static/js/2.e7364d82.chunk.js",
+    "static/js/2.e7364d82.chunk.js.map": "/strimr/static/js/2.e7364d82.chunk.js.map",
+    "index.html": "/strimr/index.html",
+    "static/js/2.e7364d82.chunk.js.LICENSE.txt": "/strimr/static/js/2.e7364d82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.570691ac.js",
-    "static/js/2.4196c608.chunk.js",
-    "static/js/main.7f4b5f52.chunk.js"
+    "static/js/runtime-main.2116b0f4.js",
+    "static/js/2.e7364d82.chunk.js",
+    "static/js/main.8c448a5c.chunk.js"
   ]
 }
