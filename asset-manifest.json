@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/strimr/static/js/main.d0d4485e.chunk.js",
+    "main.js.map": "/strimr/static/js/main.d0d4485e.chunk.js.map",
+    "runtime-main.js": "/strimr/static/js/runtime-main.2116b0f4.js",
+    "runtime-main.js.map": "/strimr/static/js/runtime-main.2116b0f4.js.map",
+    "static/js/2.e7364d82.chunk.js": "/strimr/static/js/2.e7364d82.chunk.js",
+    "static/js/2.e7364d82.chunk.js.map": "/strimr/static/js/2.e7364d82.chunk.js.map",
+    "index.html": "/strimr/index.html",
+    "static/js/2.e7364d82.chunk.js.LICENSE.txt": "/strimr/static/js/2.e7364d82.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2116b0f4.js",
+    "static/js/2.e7364d82.chunk.js",
+    "static/js/main.d0d4485e.chunk.js"
+  ]
+}
