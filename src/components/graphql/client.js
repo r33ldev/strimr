@@ -4,6 +4,9 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { gql } from '@apollo/client';
 import { GET_QUEUED_SONGS } from './queries';
 
+console.log('process here: ', process.env.name);
+console.log('process again: ', process.env.REACT_APP_NOT_SECRET_CODE);
+
 const client = new ApolloClient({
   link: new WebSocketLink({
     uri: 'wss://apollo-music-share-1.hasura.app/v1/graphql',
@@ -12,7 +15,7 @@ const client = new ApolloClient({
       connectionParams: {
         headers: {
           contentType: 'application/json',
-          'x-hasura-admin-secret': process.env.REACT_APP_HASURA_CLIENT_SECRET,
+          'x-hasura-admin-secret': process.env.REACT_APP_HASURA_SECRET,
         },
       },
     },
@@ -66,9 +69,6 @@ const client = new ApolloClient({
   },
 });
 
-  console.log('===================================');
-  console.log(process.env)  
-  console.log('===================================');
 const hasQueue = Boolean(localStorage.getItem('queue'));
 
 const data = {

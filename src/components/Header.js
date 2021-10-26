@@ -18,7 +18,7 @@ function Header () {
                 <Toolbar >
                     <HeadsetMicOutlined />
                     <Typography variant='h6' component='h1' className={title}>
-                        Apollo Music Share
+                        Music Streaming | Strimr
                     </Typography>
                 </Toolbar>
             </AppBar>

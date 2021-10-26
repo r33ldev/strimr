@@ -7,6 +7,8 @@ import App from './App';
 import theme from './components/theme';
 import client from './components/graphql/client';
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
